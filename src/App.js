@@ -25,6 +25,7 @@ function App() {
   const [touched, setTouched] = useState(false);
 
   const init = async () => {
+    console.log('THIS APP ASKS YOU TO TEACH THE IDIOT AI TO RECOGNIZE WHEN YOU ARE TOUCHING YOUR FACE AND WARN YOU IMMEDIATELY. ');
     console.log('intit...');
     await setupCamera()
     console.log('setup camera success! Waiting...');
